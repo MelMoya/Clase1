@@ -5,41 +5,79 @@
 	<title>Helados Pau</title>
 </head>
 <body>
-<style>
-	.encabezado{
-		background: red;
-	}
-</style>
+ <!-- <style>  -->
+	<!-- .encabezado{ -->
+		<!-- background: blue; -->
+	<!-- } -->
+<!-- </style> -->
+
 <div class="encabezado">
 	<h1> Helados Pau</h1>
-	<a href="https://www.facebook.com/"><img src="LogoFB.jpg" alt="Logo Facebook"></a>
-	<a href="https://www.twitter.com/"><img src="LogoTW.jpg" alt="Logo Twitter"></a>
-	<a href="https://www.instagram.com/"><img src="LogoIns.jpg" alt="Logo Instagram"></a>
+	<!-- Logos Redes Sociales -->
+	<a href="https://www.facebook.com/"><img src="LogoFB.svg" width="50" height="50" alt="Logo Facebook"></a>
+	<a href="https://www.twitter.com/"><img src="LogoTW.svg" width="50" height="50" alt="Logo Twitter"></a>
+	<a href="https://www.instagram.com/"><img src="LogoIns.svg" width="50" height="50" alt="Logo Instagram"></a>
 </div>
 
 <div class="menu">
-	<table>
-	<tr>
-	<a href="home">Home</a>
-	<a>Productos</a>
-	<select id="Productos" name="Productos">
-			<option>Postres</option>
-			<option>Cucuruchos</option>
-			<option>Locales</option>
-			<option>Contacto</option>
-			<label for=Sabores>Sabores</label>
-				<input id=Sabores type="text" value="Sabor 1
-				Sabor 2
-				Sabor 3
-				Sabor 4
-				Sabor 5" readonly>
-	</select>
-	
-	<a>Locales</a>
-	<a>Contacto</a>
+	<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">Productos</a>
+				<ul>
+					<li><a href="#">Postres</a></li>
+					<li><a href="#">Cucuruchos</a></li>
+					<li><a href="#">Palitos</a></li>
+					<li><a href="#">Tortas</a></li>
+					<li><a href="#">Sabores</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Locales</a></li>
+				<ul>
+					<li><a href="#">Mapa</a></li>
+				</ul>
+			
+			<li><a href="#">Contacto</a>
+				<!-- Formulario de contacto -->
+				<form action="miScrip.php" method="GET">
+					<label for="name"> Nombre y Apellido: </label>
+					<input id="name" type="name">
+
+					<label for="email">Email: </label>
+					<input id="email" type="email">
+
+					<label for="body">Mensaje: </label>
+					<textarea id="body" name="body" ></textarea>
+					
+					<!-- Boton con mensaje -->
+					<button type="submit">Enviar</button>
+					<!-- Boton sin mensaje -->
+					<input type="submit" onclick="alert('Responderemos tu solicitud a la brevedad')" value="Enviar">
+					
+					<label for="subject">Informacion:</label>
+					<input id="subject" type="text" value="Heladopau@gmail.com
+							0291-1234567
+							calle 123- Bahia Blanca" readonly>
+					
+
+				</form>
+
+			</li>
+		</ul>
 	
 </div>
+<img src="Heladeria.jpg" alt="Foto Heladeria">
+<h1>La vida es como un helado... Disfrutala antes de que se derrita</h1>
 
-	
+<div class="tabla">
+	<table>
+		<tr>
+			<td><img src="2x1.jpg" alt="Promo2x1"></td>
+			<td></td>
+			<td><img src="Descuento.png" alt="Descuento"></td>
+			<td></td>
+			<td><img src="NuevosProductos.png" alt="Nuevos Productos"></td>
+		</tr>
+	</table>
+</div>
 </body>
 </html>
