@@ -1,0 +1,45 @@
+		body{
+			background: pink;
+		}
+		.conteiner{
+			background: white;
+			margin:auto;
+			display:block;
+			width: 978px;
+		}
+		.conteiner h1{
+			text-align: center;
+		} 
+		.tabla table{
+			margin:auto;
+		}
+		 .tabla table tr{
+			display: flex;
+			margin:auto;
+		}
+		.encabezado img{
+			display: inline;
+		}
+		.menu {
+			display: block;
+			position: relative;
+		}
+		.menu ul li ul {
+		display: none;
+		}
+		
+		/*.menu ul li {
+			position: relative;
+		}
+		.menu ul li a{
+			display: block;
+		}*/
+		
+		
+		/*.menu a {
+		display: block;
+		padding: 2em;
+		background-color: violet;
+		text-decoration: none;
+		color: black;
+		}*/
