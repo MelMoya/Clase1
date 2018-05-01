@@ -10,36 +10,28 @@
 		.conteiner h1{
 			text-align: center;
 		} 
-		.tabla table{
-			margin:auto;
-		}
-		 .tabla table tr{
-			display: flex;
-			margin:auto;
-		}
 		.encabezado img{
 			display: inline;
 		}
-		.menu {
+		/*Alineado a la derecha*/
+		.redes {
+			text-align: right; 
+		}
+		.menu a{
+			display: inline-block;
+		}
+		.imagenes{
 			display: block;
-			position: relative;
+			text-align: center;
 		}
-		.menu ul li ul {
-		display: none;
+		.sabores img{
+			text-align: center;
 		}
-		
-		/*.menu ul li {
-			position: relative;
-		}
-		.menu ul li a{
+		.contacto label{
 			display: block;
-		}*/
+		}
+		.contacto p{
+			float: right;
+			width: 10 px
+		}
 		
-		
-		/*.menu a {
-		display: block;
-		padding: 2em;
-		background-color: violet;
-		text-decoration: none;
-		color: black;
-		}*/

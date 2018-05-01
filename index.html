@@ -2,132 +2,93 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Helados Pau</title>
+	<title>Helados</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="conteiner">	
 		<div class="encabezado">
-			<h1> Helados Pau</h1>
-			<!-- Logos Redes Sociales -->
-			<a href="https://www.facebook.com/"><img src="LogoFB.svg" width="50" height="50" alt="Logo Facebook"></a>
-			<a href="https://www.twitter.com/"><img src="LogoTW.svg" width="50" height="50" alt="Logo Twitter"></a>
-			<a href="https://www.instagram.com/"><img src="LogoIns.svg" width="50" height="50" alt="Logo Instagram"></a>
+			<h1> Helados </h1>
+			<!-- Redes Sociales -->
+			<div class="redes">
+				<a href="https://www.facebook.com/"><img src="LogoFB.svg" width="50" height="50" alt="Logo Facebook"></a>
+				<a href="https://www.twitter.com/"><img src="LogoTW.svg" width="50" height="50" alt="Logo Twitter"></a>
+				<a href="https://www.instagram.com/"><img src="LogoIns.svg" width="50" height="50" alt="Logo Instagram"></a>
+			</div>
 		</div>
 
 		<div class="menu">
-			<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">Productos</a>
-						<ul>
-							<li><a href="#">Postres</a>
-								<!-- FotosPostres -->
-							</li>
-							<li><a href="#">Cucuruchos</a>
-								<!-- FotosCucuruchos -->
-							</li>
-							<li><a href="#">Palitos</a>
-								<!-- FotosPalitos -->
-							</li>
-							<li><a href="#">Tortas</a>
-								<!--FotosTortas-->
-							</li>
-						</ul> <!--Fin ul Prodcutos-->
-					</li> <!--FinProductos-->
-					<li><a href="#">Sabores</a>
-								<ul>
-									<li><a href="#">Cremas</a> <!--Inicio Cremas-->
-										<ul> <!--Inicio SaboresCremas-->
-											<li>ALMENDRADO Helado de vainilla, sembrado con crocante de maní y caramelo.</li>
-											<li>FRUTOS DEL BOSQUE Helado de crema americana, con salsa de frutos del bosque.</li>
-											<li>AMERICANA Helado a base de crema chantilly.</li>
-											<li>GRANIZADO Helado de crema americana, con granizado de chocolate con leche.</li>
-										</ul> <!--FinSaboresCrema-->
-									</li> <!--FinCremas-->
+			<a href="#"><h4>HOME</h4></a>|
+			<a href="#productos"><h4>Productos</h4></a>|
+			<a href="#sabores"><h4>Sabores</h4></a>|
+			<a href="#promos"><h4>Promociones</h4></a>|
+			<a href="#locales"><h4>Locales</h4></a>|
+			<a href="#contact"><h4>Contacto</h4></a>
 
-									<li><a href="#">Chocolates</a> <!--Inicio Chocolate-->
-										<ul><!--Inicio SaboresChocolate-->
-											<li>CHOCOLATE Helado de crema elaborado con leche, azúcar y cacao.</li>
-											<li>CHOCOLATE AMARGO Base de helado de chocolate amargo.</li>
-											<li>CHOCOLATE BLANCO Helado de crema, con chocolate blanco y manteca de cacao.</li>
-										</ul><!--Fin SaboresChocolate-->
-									</li><!--Fin Chocolates-->
-
-									<li><a href="#">Dulce de Leche</a> <!--Inicio DulceDeLeche-->
-										<ul><!--Inicio SaboresDulceDeLeche-->
-											<li>DULCE DE LECHE Crema helada a base de dulce de leche heladero.</li>
-											<li>DULCE DE LECHE BOMBÓNHelado de dulce de leche, sembrado con trozos de bombones.</li>
-										</ul><!--Fin SaboresDulceDeLeche-->
-									</li><!--Fin DulceDeLeche-->
-
-									<li><a href="#">Frutales</a> <!--Inicio Frutales-->
-										<ul><!--Inicio SaboresFrutales-->
-											<li>ANANÁ Helado de agua elaborado con ananá natural.</li>
-											<li>DURAZNOHelado de agua elaborado con duraznos naturales.</li>
-											<li>FRUTILLA Helado de agua elaborado con frutillas naturales.</li>
-										</ul><!--Fin SaboresFrutales-->
-									</li><!--Fin Frutales-->
-
-									<li><a href="#">Con alcohol</a><!--Inicio ConAlcohol-->
-										<ul><!--Inicio SaboresConAlcohol-->
-											<li>CHOCOLATE BORRACHO Helado de chocolate, con masitas vainillas embebidas en oporto.</li>
-											<li>CHOCOLATE YOMO Helado de chocolate, con granizado de chocolate con leche y oporto.</li>
-										</ul><!--Fin SaboresConAlcohol-->
-									</li><!--Fin ConAlchol-->
-
-								</ul> <!--Fin ul Sabores-->
-							</li><!--Fin Sabores-->
-					<li><a href="#">Locales</a></li>
-						<ul>
-							<li><a href="#">Mapa</a></li>
-						</ul>
-					
-					<li><a href="#contact">Contacto</a></li>
-				</ul>
-			
 		</div>
-
 
 		<img src="Heladeria.jpg" alt="Foto Heladeria">
+		<br>
 		<h1>La vida es como un helado... Disfrutala antes de que se derrita</h1>
+		<br>
+		<div class="productos">
+			<a id="productos"><h2>Productos</h2></a>
+			<div class="imagenes">
+				<img src="postres.jpg" alt="Postres">
+				<img src="Cucuruchos.jpg" alt="Cucuruchos">
+				<img src="Palitos.jpg" alt="Palitos">
+				<img src="Tortas.jpg" alt="Tortas">
+			</div>
+		</div>
+		<br>
 
-		<div class="tabla">
-			<table>
-				<tr>
-					<td><img src="2x1.jpg" alt="Promo2x1"></td>
-					<td></td>
-					<td><img src="Descuento.png" alt="Descuento"></td>
-					<td></td>
-					<td><img src="NuevosProductos.png" alt="Nuevos Productos"></td>
-				</tr>
-			</table>
+		<!-- Hacer referencias? -->
+		<div class="promos" id="promos">
+			<div class="imagenes">
+				<img src="2x1.jpg" alt="Promo2x1">
+				<img src="Descuento.png" alt="Descuento">
+				<img src="NuevosProductos.png" alt="Nuevos Productos">
+			</div>
+		</div>
+
+		<div class="sabores">
+			<a id="sabores"><h2>Sabores</h2></a>
+			<img src="Helados.jpg" alt="Helados">
+			<h3>Cremas</h3>
+			<li>ALMENDRADO Helado de vainilla, sembrado con crocante de maní y caramelo.</li>
+			<li>FRUTOS DEL BOSQUE Helado de crema americana, con salsa de frutos del bosque.</li>
+			<li>AMERICANA Helado a base de crema chantilly.</li><li>GRANIZADO Helado de crema americana, con granizado de chocolate con leche.</li>
+			<li>ANANÁ A LA CREMA Helado de crema americana, con trozos de ananá natural.</li>
+			<li>CREMA DE LIMÓN Helado de crema americana, saborizado con jugo de limones naturales.</li>	
+			<br>
+			<!-- terminar sabores -->
+		</div>
+		<div class="locales" id="locales"><h2>Locales</h2>
+			<p>Calle 123- Bahia Blanca- Buenos Aires- Argentina</p>
+			<!-- Agregar mapa -->
 		</div>
 		<div class="contacto">
-			<p id="contact">Contacto</a>
-						<!-- Formulario de contacto -->
-						<form action="miScrip.php" method="GET">
-							<label for="name"> Nombre y Apellido: </label>
-							<input id="name" type="name">
-
-							<label for="email">Email: </label>
-							<input id="email" type="email">
-
-							<label for="body">Mensaje: </label>
-							<textarea id="body" name="body" ></textarea>
-							
-							<!-- Boton con mensaje -->
-							<button type="submit">Enviar</button>
-							<!-- Boton sin mensaje -->
-							<input type="submit" onclick="alert('Responderemos tu solicitud a la brevedad')" value="Enviar">
-							
-							<label for="subject">Informacion:</label>
-							<textarea id="subject" type="text" value="Heladopau@gmail.com
-									0291-1234567
-									calle 123- Bahia Blanca" readonly></textarea> 
-							
-
-						</form>
+			<a id="contact"><h2>Contacto</h2></a>
+				<!-- Formulario de contacto -->
+				<form action="miScrip.php" method="GET">		
+					<label for="name"> Nombre y Apellido: </label>		<input id="name" type="name">
+					<label for="email">Email: </label>
+						<input id="email" type="email">	
+					<label for="body">Mensaje: </label>		
+						<textarea id="body" name="body" ></textarea>
+					<!-- Boton con mensaje -->	
+					<button type="submit">Enviar</button>
+					<!-- Boton sin mensaje -->		
+					<input type="submit" onclick="alert('Responderemos tu solicitud a la brevedad')" value="Enviar">		
+					<!-- Hacerlo como parrafo -->
+					<p>Informacion:
+						Helados@gmail.com
+						0291-1234567
+						calle 123- Bahia Blanca
+					</p>
+				</form>		
 		</div>
+		<br>
 	</div>
 </body>
 
