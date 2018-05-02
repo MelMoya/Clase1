@@ -1,14 +1,17 @@
 		body{
-			background: pink;
+			background: violet;
 		}
 		.conteiner{
 			background: white;
 			margin:auto;
 			display:block;
 			width: 978px;
+			padding: 5px;
+			border-radius:25px;
 		}
 		.conteiner h1{
 			text-align: center;
+			color:#9400D3;
 		} 
 		.encabezado img{
 			display: inline;
@@ -18,7 +21,11 @@
 			text-align: right; 
 		}
 		.menu a{
+			text-decoration:none; /*Saca subrayado*/
 			display: inline-block;
+		}
+		.menu a:hover{ /*Pasar cursor por a cambia color*/
+			background:violet;
 		}
 		.imagenes{
 			display: block;
@@ -30,8 +37,13 @@
 		.contacto label{
 			display: block;
 		}
-		.contacto p{
+		.informacion{
+			width: auto;
+			height: auto;
+			border:#9400D3 5px double;
+			padding: 10px;
 			float: right;
-			width: 10 px
+			display: inline;	
 		}
+
 		

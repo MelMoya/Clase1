@@ -69,27 +69,58 @@
 		</div>
 		<div class="contacto">
 			<a id="contact"><h2>Contacto</h2></a>
-				<!-- Formulario de contacto -->
-				<form action="miScrip.php" method="GET">		
-					<label for="name"> Nombre y Apellido: </label>		<input id="name" type="name">
-					<label for="email">Email: </label>
-						<input id="email" type="email">	
-					<label for="body">Mensaje: </label>		
-						<textarea id="body" name="body" ></textarea>
-					<!-- Boton con mensaje -->	
-					<button type="submit">Enviar</button>
-					<!-- Boton sin mensaje -->		
-					<input type="submit" onclick="alert('Responderemos tu solicitud a la brevedad')" value="Enviar">		
-					<!-- Hacerlo como parrafo -->
-					<p>Informacion:
-						Helados@gmail.com
-						0291-1234567
-						calle 123- Bahia Blanca
-					</p>
-				</form>		
-		</div>
+				<table>
+					<tr>
+						<!-- Formulario de contacto -->
+						<td><form action="miScrip.php" method="GET">		
+							<label for="name"> Nombre y Apellido: </label>	
+								<input id="name" type="name">
+							<label for="email">Email: </label>
+								<input id="email" type="email">	
+							<label for="body">Mensaje: </label>		
+								<textarea id="body" name="body" ></textarea>
+							<!-- Boton con mensaje -->	
+							<button type="submit">Enviar</button>
+							<!-- Boton sin mensaje -->		
+							<input type="submit" onclick="alert('Responderemos tu solicitud a la brevedad')" value="Enviar">		
+							<!-- Hacerlo como parrafo -->
+							
+						</form></td>
+						<td><div class="informacion"><label>Informacion:</label>
+								<table>
+									<tr>
+										<td><img src="Telefono.svg" alt="imagenTelefono" width="50PX"></td>
+										<td></td>
+										<td>Helados@gmail.com
+											<br>
+											0291-1234567
+											<br>
+											calle 123- Bahia Blanca
+										</td>
+									</tr>
+								</table>
+													
+						</div></td><!--Fin Informacion-->
+					</tr>
+				</table>	
+		</div> <!--Fin Contacto-->
 		<br>
-	</div>
+		<div class="footer">
+			<div class="menu">
+				<a href="#"><h4>HOME</h4></a>|
+				<a href="#productos"><h4>Productos</h4></a>|
+				<a href="#sabores"><h4>Sabores</h4></a>|
+				<a href="#promos"><h4>Promociones</h4></a>|
+				<a href="#locales"><h4>Locales</h4></a>|
+				<a href="#contact"><h4>Contacto</h4></a>
+			</div>
+			<div class="redes">
+				<a href="https://www.facebook.com/"><img src="LogoFB.svg" width="30" height="50" alt="Logo Facebook"></a>
+				<a href="https://www.twitter.com/"><img src="LogoTW.svg" width="30" height="50" alt="Logo Twitter"></a>
+				<a href="https://www.instagram.com/"><img src="LogoIns.svg" width="30" height="50" alt="Logo Instagram"></a>
+			</div>
+		</div> <!--Fin Footer-->
+	</div> <!--Fin Contenedor -->
 </body>
 
 </html>
