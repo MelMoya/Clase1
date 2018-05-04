@@ -1,15 +1,15 @@
 		body{
 			background: violet;
 		}
-		.conteiner{
+		.container{
 			background: white;
 			margin:auto;
 			display:block;
-			width: 978px;
-			padding: 5px;
-			border-radius:25px;
+			width: 61.125em;
+			padding: 0.3125em;
+			border-radius:1.5625em;
 		}
-		.conteiner h1{
+		.container h1{
 			text-align: center;
 			color:#9400D3;
 		} 
@@ -40,8 +40,8 @@
 		.informacion{
 			width: auto;
 			height: auto;
-			border:#9400D3 5px double;
-			padding: 10px;
+			border:#9400D3 0.3125em double;
+			padding: 0.625em;
 			float: right;
 			display: inline;	
 		}
