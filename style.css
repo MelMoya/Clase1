@@ -1,49 +1,53 @@
-		body{
-			background: violet;
-		}
-		.container{
-			background: white;
-			margin:auto;
-			display:block;
-			width: 61.125em;
-			padding: 0.3125em;
-			border-radius:1.5625em;
-		}
-		.container h1{
-			text-align: center;
-			color:#9400D3;
-		} 
-		.encabezado img{
-			display: inline;
-		}
-		/*Alineado a la derecha*/
-		.redes {
-			text-align: right; 
-		}
-		.menu a{
-			text-decoration:none; /*Saca subrayado*/
-			display: inline-block;
-		}
-		.menu a:hover{ /*Pasar cursor por a cambia color*/
-			background:violet;
-		}
-		.imagenes{
-			display: block;
-			text-align: center;
-		}
-		.sabores img{
-			text-align: center;
-		}
-		.contacto label{
-			display: block;
-		}
-		.informacion{
-			width: auto;
-			height: auto;
-			border:#9400D3 0.3125em double;
-			padding: 0.625em;
-			float: right;
-			display: inline;	
-		}
+body{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+#container{
+	background: violet;
+	width: 61em;
+	position: relative;
+	border-radius: 2em;
 
-		
+}
+#container h1{
+	color:#8B008B;
+	text-align: center;
+}
+#navbar{
+	background: #C71585;
+	border: none;
+}
+#navbar a{
+	color:white;
+}
+#navbar a:hover{
+	color:#FF00FF;
+}
+
+#fotoH{
+	width: 59em;
+}
+#form{
+	text-align: left;
+}
+#footer{
+	position: relative;
+	width: 100%;
+}
+
+#rowFooter{
+	border-top:1px solid black;
+	padding-top: 3em;
+}
+
+#botonSabores{
+	background: #C71585;
+	border: none;
+}
+#sabores ul{
+	background:#DA70D6;
+}
+
+#sabores a:hover{
+	background: #DDA0DD;
+}

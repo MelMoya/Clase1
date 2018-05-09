@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="container" id="container">	
-		<div class="encabezado" id="encabezado">
+		<div id="encabezado">
 			<h1 id="Helados"> Helados </h1>
 			<!-- Menu y RedesSociales-->
 			<div class="row" id="row">
@@ -39,41 +39,55 @@
 				</div>
 			</div> 
 			<!-- Fin Menu y Redes Sociales -->
-		</div>
 
-		
+		<!-- Contacto -->
+		<div class="contacto">
+			<div class="container-fluid text-center text-sm-left">
+		        <div class="row">
+		            <!--First column-->
+		            <div class="col-sm-6" id="form">
+		                <form action="/action_page.php">
+							<div class="form-group">
+							    <label for="name"> Nombre y Apellido: </label>	
+									<input id="name" type="name">
+							</div>
+							<div class="form-group">
+							    <label for="email">Email: </label>
+									<input id="email" type="email">	
+							</div>
+							<div class="form-group">
+								<div class="col-sm-2">
+									<label for="mensaje">Mensaje:</label>
+								</div>
+								<div class="col-sm-6">
+									<textarea class="form-control" rows="3" width="10" id="mensaje"></textarea>
+								</div>
 
-		<img src="Heladeria.jpg" id= "fotoH" alt="Foto Heladeria">
+							</div>	
+							<br>
+							<button type="enviar" class="btn btn-default">Enviar</button>
+
+						</form>
+		            </div>
+		            <!--/.First column-->
+
+		            <!--Second column-->
+		            <div class="col-sm-6">
+		                <div class="col-sm-2">
+		                	<br>
+		                	<img src="C:\Users\meelm\OneDrive\Documents\Github\Clase1\Telefono.svg" height="70" alt="telefono">
+		                </div>
+		                <div class="col-sm-8">
+		                	<h4>Contacto</h4>
+				            <p>Helados@helados.com <br> 0291-1234567 <br> calle 123- Bahia Blanca</p>
+		                </div>
+					</div>
+		            <!--/.Second column-->
+		        </div>
+		    </div>	
+		</div> 
+		<!--Fin Contacto-->
 		<br>
-		<h1>La vida es como un helado... Disfrutala antes de que se derrita</h1>
-		<br>
-		<div class="productos">
-			<a id="productos"><h2>Productos</h2></a>
-			<div class="carousel slide" id="imagenes">
-				<img src="postres.jpg" alt="Postres">
-				<img src="Cucuruchos.jpg" alt="Cucuruchos">
-				<img src="Palitos.jpg" alt="Palitos">
-				<img src="Tortas.jpg" alt="Tortas">
-			</div>
-		</div>
-		<br>
-
-		<!-- Hacer referencias? -->
-		<div class="promos" id="promos">
-			<div class="imagenes">
-				<img src="2x1.jpg" alt="Promo2x1">
-				<img src="Descuento.png" alt="Descuento">
-				<img src="NuevosProductos.png" alt="Nuevos Productos">
-			</div>
-		</div>
-
-		<div class="locales" id="locales"><h2>Locales</h2>
-			<p>Calle 123- Bahia Blanca- Buenos Aires- Argentina</p>
-			<!-- Agregar mapa -->
-		</div>
-
-		<br>
-
 		<!--Footer-->
 		<footer class="page-footer font-small blue pt-4 mt-4" id="footer">
 

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Helados-Sabores</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- Para Dropdown -->	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+	<div class="container" id="container">	
+		<div class="encabezado" id="encabezado">
+			<h1> Helados </h1>
+			<!-- Menu y RedesSociales-->
+			<div class="row" id="row">
+				<div class="col-sm-9" id="menu">
+					<nav class="navbar navbar-inverse" id="navbar">
+						<div class="container-fluid">
+							<ul class="nav navbar-nav" id="navbar">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Productos</a></li>
+								<li><a href="Sabores.html">Sabores</a></li>
+								<li><a href="#">Promociones</a></li>
+								<li><a href="#">Locales</a></li>
+								<li><a href="Contacto.html">Contacto</a></li>
+										    
+							</ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="col-sm-3" id="redes">
+								<a href="https://www.facebook.com/"><img src="LogoFB.svg" width="50" height="50" alt="Logo Facebook"></a>
+								<a href="https://www.twitter.com/"><img src="LogoTW.svg" width="50" height="50" alt="Logo Twitter"></a>
+								<a href="https://www.instagram.com/"><img src="LogoIns.svg" width="50" height="50" alt="Logo Instagram"></a>
+				</div>
+			</div> 
+			<!-- Fin Menu y Redes Sociales -->
+
+			<!-- Menu Sabores -->
+
+			<div class="dropdown" id="sabores">
+			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="botonSabores">Sabores <span class="caret"></span></button>
+			    <ul class="dropdown-menu" id="menuSabores">
+			      <li><a href="#cremas"><h4>Cremas</h4></a></li>
+			      <li><a href="#chocolates"><h4>Chocolates</h4></a></li>
+			      <li><a href="#dulcesDeLeches"><h4>Dulces de Leche</h4></a></li>
+			      <li><a href="#frutales"><h4>Frutales</h4></a></li>
+			      <li><a href="#conAlcohol"><h4>Con alcohol</h4></a></li>
+			    </ul>
+  			</div>
+  			<br>
+
+			<img src="Helados.jpg" alt="Helados">
+			<div class="cremas" id="cremas">
+				<h3>Cremas</h3>
+				<li>ALMENDRADO Helado de vainilla, sembrado con crocante de maní y caramelo.</li>
+				<li>FRUTOS DEL BOSQUE Helado de crema americana, con salsa de frutos del bosque.</li>
+				<li>AMERICANA Helado a base de crema chantilly.</li>
+				<li>GRANIZADO Helado de crema americana, con granizado de chocolate con leche.</li>
+				<li>ANANÁ A LA CREMA Helado de crema americana, con trozos de ananá natural.</li>
+				<li>CREMA DE LIMÓN Helado de crema americana, saborizado con jugo de limones naturales.</li>
+				<li>BANANA Helado de crema helada de banana, elaborado con fruta natural.</li>
+				<li>TRAMONTANA Helado de crema americana, masitas de chocolate y dulce de leche.</li>
+				<li>BANANA SPLIT Helado de crema de banana, combinado con dulce de leche heladero.</li>
+				<li>VAINILLA Helado de crema a base de huevos y crema de leche, saborizado con vainillina.</li>
+				<li>BANANITA Helado de vainilla con sabor a banana, con granizado de chocolate con leche.</li>
+				<li>MENTA GRANIZADA Helado de crema saborizado con menta, con granizado de chocolate.</li>
+				<li>CEREZA A LA CREMA Base de helado de crema americana, sembrado con cerezas naturales.</li>
+				<li>CEREZA NEGRA Crema sabor marraschino con cerezas.</li>
+				<li>HAVACHOC Helado de dulce de leche con sabor a alfajor, con granizado de chocolate.</li>
+				<li>COCO Helado de crema helada de coco, elaborada con fruta natural.</li>
+				<li>MASCARPONE Helado de americana, con queso mascarpone, con frutos del bosque.</li>
+				<li>COOKIES & CREAM Helado de crema americana, con masitas de chocolate trozadas.</li>
+				<li>CREMA DEL CIELO Helado de crema americana de color celeste.</li>
+				<li>LEMON PIE Helado de limón a la crema, con trozos de merengue y crema de limón.</li>
+				<li>CREMA DE FRUTILLAS Helado de crema de frutillas, con pulpa de frutillas naturales.</li>
+				<li>CREMA DE HIGOS Helado de vainilla, sembrado con higos naturales en almíbar.</li>
+				<li>DURAZNO A LA CREMA Helado de crema americana, con trozos de duraznos al natural.</li>
+				<li>FLAN Helado de vainilla, combinado con caramelo.</li>
+				<li>SÚPER FLAN Helado de crema de vainilla, con caramelo y dulce de leche heladero.</li>
+				<li>FRUTILLA A LA CREMA Helado de crema americana, con frutillas tiernizadas en azúcar.</li>	
+			</div> <!--FinCremas-->
+			<br>
+			<div class="chocolates" id="chocolates">
+				<h3>Chocolates</h3>
+				<li>CHOCOLATE Helado de crema elaborado con leche, azúcar y cacao.</li>
+				<li>CHOCOLATE AMARGO Base de helado de chocolate amargo.</li>
+				<li>CHOCOLATE BLANCO Helado de crema, con chocolate blanco y manteca de cacao.</li>
+				<li>CHOCOLATE BORRACHO Helado de chocolate, con masitas vainillas embebidas en oporto.</li>
+				<li>CHOCOLATE CON ALMENDRAS Helado de chocolate, con almendras tostadas.</li>
+				<li>CHOCOLATE TRIPLE Con granizado de chocolate blanco y chocolate con leche.</li>
+				<li>CHOCOLATE CON NUEZ Helado de chocolate, sembrado con nueces.</li>
+				<li>CHOCOLATE DOBLE Helado de chocolate, combinado con granizado de chocolate blanco.</li>
+				<li>CHOCOLATE EXPLOSIVO Con masitas de chocolate rellenas y dulce de leche heladero.</li>
+				<li>CHOCOLATE MANTECOL Helado de chocolate, sembrado con trozos de mantecol.</li>
+				<li>CHOCOLATE PATAGÓNICO Helado de chocolate semiamargo, con frutos del bosque.</li>
+				<li>BOMBÓN ROCHER Helado de chocolate y avellanas, con chocolate y trozos de avellanas.</li>
+				<li>CHOCOLATE SUIZO Helado de chocolate, con almendras y granizado de chocolate blanco.</li>
+			</div><!-- FinChocolates -->
+			<br>
+			<div class="dulcesdeleche" id="dulcesDeLeche">
+				<h3>Dulces de leche</h3>
+				<li>DULCE DE LECHE Crema helada a base de dulce de leche heladero.</li>
+				<li>DULCE DE LECHE BOMBÓNHelado de dulce de leche, sembrado con trozos de bombones.</li>
+				<li>DULCE DE LECHE CON MERENGUE Con trozos de merengue y dulce de leche heladero.</li>
+				<li>DULCE DE LECHE GRANIZADO Con granizado de chocolate con leche.</li>
+				<li>DULCE DE LECHE SPLIT Helado de dulce de leche, combinado con dulce de leche heladero.</li>
+				<li>DULCE DE LECHE CON ALMENDRAS ACARAMELADAS Base de helado de dulce de leche con almendras tostadas caramelizadas.</li>
+			</div><!-- FinDulcesDeLeche -->
+			<br>
+			<div class="frutales" id="frutales">
+				<h3>Frutales</h3>
+				<li>ANANÁ Helado de agua elaborado con ananá natural.</li>
+				<li>DURAZNOHelado de agua elaborado con duraznos naturales.</li>
+				<li>FRUTILLA Helado de agua elaborado con frutillas naturales.</li>
+				<li>LIMÓN Helado de agua elaborado con concentrado natural del limón.</li>
+				<li>MARACUYÁ Helado de agua elaborado con salsa de maracuyá natural.</li>
+				<li>LIMÓN CON FRUTILLAS Base de helado de limón, combinado con frutillas naturales.</li>
+				<li>MANZANA VERDE Helado de agua elaborado con concentrado natural de manzanas verdes.</li>
+				<li>NARANJA Helado de agua elaborado con concentrado natural de naranjas.</li>
+				<li>FRAMBUESA Helado de agua con trozos de frambuesas naturales.</li>
+			</div> <!--FinFrutales-->
+			<br>
+			<div class="conAlcohol" id="conAlcohol">
+				<h3>Con Alcohol</h3>
+				<li>CHOCOLATE BORRACHO Helado de chocolate, con masitas vainillas embebidas en oporto.</li>
+				<li>CHOCOLATE YOMO Helado de chocolate, con granizado de chocolate con leche y oporto.</li>
+				<li>CREMA RUSA Helado de crema, combinado con oporto y sembrado con nueces.</li>
+				<li>QUINOTOS AL WHISKY Helado de vainilla, con quinotos trozados macerados en whisky.</li>
+				<li>PASAS AL RHUM Helado de vainilla, sembrado con pasas de uvas maceradas al rhum.</li>
+				<li>SAMBAYÓN Helado de crema, elaborado con yema de huevo, crema de leche y oporto.</li>
+				<li>SAMBAYÓN GRANIZADO Helado de sambayón, con granizado de chocolate con leche.</li>
+				<li>SOPA INGLESA Helado de crema de vainilla, con masitas vainillas embebidas en licor de huevo.</li>
+				<li>TIRAMISÚ Helado de vainilla saborizado con café con masitas vainillas embebidas en oporto.</li>
+				<li>IRISH CREAM Helado a la crema y leche condensada, con Whisky, caramelo y café. </li>
+			</div>
+			<!-- terminar sabores -->
+		</div> <!--FinSabores-->
+		<br>
+
+		<!--Footer-->
+		<footer class="page-footer font-small blue pt-4 mt-4" id="footer">
+
+		    <!--Footer Links-->
+		    <div class="container-fluid text-center text-md-left">
+		        <div class="row" id="rowFooter">
+
+		            <!--PrimerCol-->
+		            <div class="col-md-4">
+		                <h3 class="text-uppercase">Helados</h3>
+		                <h4>Contacto</h4>
+		                <p>Helados@helados.com <br> 0291-1234567 <br> calle 123- Bahia Blanca</p>
+		            </div>
+		            <!--Fin PrimerCol-->
+
+		            <!--SegundaCol-->
+		            <div class="col-md-4">
+		                <h5 class="text-uppercase">Links</h5>
+		                <ul class="list-unstyled">
+		                    <li><a href="index.html">Home</a></li>
+							<li><a href="#">Productos</a></li>
+							<li><a href="Sabores.html">Sabores</a></li>
+							<li><a href="#">Promociones</a></li>
+							<li><a href="#">Locales</a></li>
+							<li><a href="Contacto.html">Contacto</a></li>
+		                </ul>
+		            </div>
+		            <!--Fin SegundaCol-->
+
+		            <!--TercerCol -->
+		            <div class="col-md-4">
+		                <h5 class="text-uppercase">Social</h5>
+		                <ul class="list-unstyled">
+		                    <li><a href="https://www.facebook.com/"><img src="LogoFB.svg" width="50" height="50" alt="Logo Facebook"></a></li>
+							<li><a href="https://www.twitter.com/"><img src="LogoTW.svg" width="50" height="50" alt="Logo Twitter"></a></li>
+							<li><a href="https://www.instagram.com/"><img src="LogoIns.svg" width="50" height="50" alt="Logo Instagram"></a></li>
+		                </ul>
+		            </div>
+		            <!-- Fin TercerCol -->
+		        </div>
+		        <!-- Fin RowFooter -->
+
+		        <!--Copyright-->
+				<div class="footer-copyright py-3 text-center">
+					© 2018 Copyright:
+					<a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
+				</div>
+		    <!--/.Copyright-->
+		    </div>
+		    <!--/.Footer Links-->
+		</footer>
+		<!--/.Footer-->
+
+	</div> <!--Fin Contenedor -->
+
+</body>
+
+</html>
